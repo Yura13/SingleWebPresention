@@ -1,0 +1,14 @@
+{
+  "name": "Yura",
+  "surname": "Dutchak",
+  "photo": "assets/images/main_photo.jpg",
+  "works":[
+    {"times": "2014 - present", "description":"A team member of the project", "nameCompany": "Nevdoma.com", "url":"http://nevdoma.com/"},
+    {"times": "2010 - present", "description":"An engineer of the company", "nameCompany": "Prykarpattyaoblenergo", "url":"http://www.oe.if.ua/"}
+  ],
+  "educations": [
+    {"times": "October - November 2009", "description":"Intership in the Technical Department of the Christian Albrecht University, Kiel"},
+    {"times": "2009 - 2010", "description":"Master of Electrical Engineering, National University of Oil and Gas, Ivano-Frankivsk"},
+    {"times": "2005 - 2009", "description":"Bachelor of Electrical Engineering, National University of Oil and Gas, Ivano-Frankivsk"}
+  ]
+}

@@ -1,0 +1,25 @@
+<header>
+    <div layout="row" layout-fill>
+        <md-toolbar>
+            <div class="md-toolbar-tools">
+                <span>Yura Dutchak</span>
+                <span flex></span>
+                <div class="nav-buttons" hide-xs>
+                    <md-button ng-repeat="item in menu.items" ui-sref="{{::item.menuName}}">
+                        {{::item.menuName}}
+                    </md-button>
+                </div>
+                <md-menu hide-gt-xs>
+                    <md-button ng-click="$mdOpenMenu($event)" class="md-icon-button" aria-label="Settings">
+                        <md-icon md-svg-icon="assets/images/ic_menu_white_24px.svg"></md-icon>
+                    </md-button>
+                    <md-menu-content>
+                        <md-menu-item ng-repeat="item in menu.items">
+                            <md-button ui-sref="{{::item.menuName}}">{{::item.menuName | uppercase}}</md-button>
+                        </md-menu-item>
+                    </md-menu-content>
+                </md-menu>
+            </div>
+        </md-toolbar>
+    </div>
+</header>

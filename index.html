@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Yura Dutchak</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/css/angular-material.min.css"/>
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="app/app.css"/>
+</head>
+<body class="ng-cloak">
+
+<div layout="column">
+    <app-header></app-header>
+    <div class="md-padding" ui-view flex></div>
+    <app-footer></app-footer>
+</div>
+
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-ui-router.min.js"></script>
+<script src="assets/js/angular-animate.min.js"></script>
+<script src="assets/js/ui-bootstrap-tpls-1.1.2.min.js"></script>
+<script src="assets/js/angular-aria.min.js"></script>
+<script src="assets/js/angular-material.min.js"></script>
+<script src="app/app.module.js"></script>
+<script src="app/app.config.js"></script>
+<script src="app/services/data.service.js"></script>
+<script src="app/header/header.directive.js"></script>
+<script src="app/footer/footer.directive.js"></script>
+<script src="app/home/home.controller.js"></script>
+<script src="app/home/home.details.controller.js"></script>
+<script src="app/photos/photos.controller.js"></script>
+<script src="app/contacts/contacts.controller.js"></script>
+
+</body>
+</html>

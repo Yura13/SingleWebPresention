@@ -1,0 +1,6 @@
+{
+  "slides": [
+    {"id": 1, "image": "assets/images/slide_1.jpg", "place": "Carpathians Mountains"},
+    {"id": 2, "image": "assets/images/slide_2.jpg", "place": "Khotyn Fortress"}
+  ]
+}

@@ -1,0 +1,49 @@
+<br/>
+<div layout="row" layout-align="center center">
+    <div flex-xs="100" flex-sm="70" flex-md="60" flex-lg="50" class="md-whiteframe-z2">
+        <md-content class="md-padding">
+            <div>
+                <form layout-sm="column" ng-submit="contacts.submit()">
+                    <md-input-container class="md-block">
+                        <label>Name</label>
+                        <md-icon md-svg-src="assets/images/ic_person_black_24px.svg" class="name"></md-icon>
+                        <input type="text" ng-model="contacts.sendInfo.name" required/>
+                    </md-input-container>
+                    <md-input-container class="md-block">
+                        <label>Email</label>
+                        <md-icon md-svg-src="assets/images/ic_mail_outline_black_24px.svg" class="email"></md-icon>
+                        <input type="email" ng-model="contacts.sendInfo.email" required/>
+                    </md-input-container>
+                    <md-input-container class="md-block">
+                        <label>Message</label>
+                        <textarea columns="1" ng-model="contacts.sendInfo.message" required></textarea>
+                    </md-input-container>
+                    <md-button type="submit" class="md-raised md-primary">Send</md-button>
+                </form>
+            </div>
+        </md-content>
+    </div>
+</div>
+<br/><br/>
+<div layout="row" layout-align="center center">
+    <div lass="md-padding">
+        <p class="text-center">
+            <i class="fa fa-map-marker"></i>
+            {{::contacts.info.city}}, {{::contacts.info.country}}
+        </p>
+
+        <p class="text-center">
+            <i class="fa fa-mobile"></i>
+            {{::contacts.info.phone}}
+        </p>
+
+        <div class="text-center">
+            <div class="social">
+                <a ng-href="{{::contacts.info.fb}}" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+            </div>
+            <div class="social">
+                <a ng-href="{{::contacts.info.vk}}" target="_blank"><i class="fa fa-vk fa-2x"></i></a>
+            </div>
+        </div>
+    </div>
+</div>

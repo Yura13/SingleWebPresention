@@ -1,0 +1,7 @@
+{
+  "menu": [
+    {"id": 1, "menuName": "home"},
+    {"id": 2, "menuName": "photos"},
+    {"id": 3, "menuName": "contacts"}
+  ]
+}

@@ -1,0 +1,32 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+    padding-bottom: 60px;
+}
+footer {
+    text-align: center;
+    background: #009688;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+footer p {
+    color: #E8EAF6;
+    padding-top: 20px;
+}
+.md-primary{
+    float: left;
+}
+form .md-primary{
+    float: right;
+}
+.social {
+    display: inline;
+    padding: 10px;
+}
+.fa-facebook, .fa-vk {
+    color: #009688;
+}
